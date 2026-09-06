@@ -1,11 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+
+    <title>Maxwell Iwe | WDD 231 Home Page</title>
+
+
+    <meta name="description" content="Student course home page for WDD 231 Web Frontend Development I">
+
+
+    <meta name="author" content="Maxwell Iwe">
+
+
+    <link rel="stylesheet" href="styles/normalize.css">
+
+    <link rel="stylesheet" href="styles/small.css">
+
+    <link rel="stylesheet" href="styles/larger.css">
+
+
+    <script src="scripts/navigation.js" defer></script>
+
+    <script src="scripts/courses.js" defer></script>
+
+    <script src="scripts/main.js" defer></script>
+
+
 </head>
+
+
 <body>
-    <h1>WDD 231 Maxwell</h1>
+
+
+    <header>
+
+        <img src="images/logo.svg" alt="Site Logo">
+
+
+        <span>Maxwell Iwe</span>
+
+
+        <button id="nav-button" class="hamburger" aria-label="Menu"></button>
+
+
+    </header>
+
+
+
+    <nav id="nav-bar" class="navigation">
+
+
+        <ul>
+
+
+            <li class="active">
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
+
+
+            <li>
+                <a href="#">
+                    Chamber Project
+                </a>
+            </li>
+
+
+            <li>
+                <a href="#">
+                    Final Project
+                </a>
+            </li>
+
+
+        </ul>
+
+    </nav>
+
+
+
+    <main>
+
+
+        <h1>
+            Home
+        </h1>
+
+
+
+        <div class="top-grid">
+
+
+            <section class="card">
+
+
+                <h2>
+                    About Me
+                </h2>
+
+
+                <p>
+
+                    Hello, my name is Maxwell Iwe. I am studying Web Frontend Development.
+                    This course is helping me improve my skills in HTML, CSS and JavaScript.
+
+                </p>
+
+
+            </section>
+
+
+
+
+            <section class="card photo">
+
+
+                <h2>
+                    Student Photo
+                </h2>
+
+
+                <img src="images/profile.webp" alt="Student photo">
+
+
+            </section>
+
+
+        </div>
+
+
+
+
+
+
+        <section class="card">
+
+
+            <h2>
+                Web Certificate Courses
+            </h2>
+
+
+
+            <div class="buttons">
+
+
+                <button id="all">
+                    All
+                </button>
+
+
+                <button id="cse">
+                    CSE
+                </button>
+
+
+                <button id="wdd">
+                    WDD
+                </button>
+
+
+            </div>
+
+
+
+            <div id="course-list"></div>
+
+
+
+            <p class="credits">
+
+                The total credits for the course list is:
+
+                <strong id="credits"></strong>
+
+            </p>
+
+
+        </section>
+
+
+
+    </main>
+
+
+
+
+
+
+    <footer>
+
+
+
+        <div class="social">
+
+
+            <a href="https://www.linkedin.com/in/maxwell-iwe-794478423" >
+                <img src="images/linkedin.svg" alt="LinkedIn">
+            </a>
+
+
+            <a href="https://github.com/miwe-max">
+                <img src="images/github.svg" alt="Github">
+            </a>
+
+
+            <a href="#">
+                <img src="images/x.svg" alt="X">
+            </a>
+
+
+        </div>
+
+
+
+
+        <p>
+
+            © <span id="currentyear"></span>
+
+            Maxwell Iwe • Nigeria
+
+        </p>
+
+
+
+        <p id="lastModified"></p>
+
+
+
+    </footer>
+
+
+
 </body>
+
 </html>
+
+
+

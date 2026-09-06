@@ -1,0 +1,43 @@
+@media screen and (min-width:700px) {
+
+
+    .hamburger {
+
+        display: none;
+
+    }
+
+
+    .navigation {
+
+        display: block;
+
+    }
+
+
+
+    .navigation ul {
+
+        display: flex;
+
+    }
+
+
+
+    .top-grid {
+
+        grid-template-columns: 2fr 1fr;
+
+    }
+
+
+
+    #course-list {
+
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+
+
+}
