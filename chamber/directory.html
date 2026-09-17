@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="Directory | Benin city Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://febirison.github.io/wdd231/chamber/images/logo-chamber-modified-small.webp">
+    <meta property="og:url" content="https://febirison.github.io/wdd231/chamber/directory.html">
+    <meta property="og:description" content="Chamber of Benin City, Join us to get more information">
+    <meta property="fb:app_id" content="your-app-id-here">
+
+
+    <title>Directory | Benin city Chamber of Commerce </title>
+    <meta name="description"
+        content="Discover the comprehensive directory of the Benin city Chamber of Commerce, featuring businesses, services, and contact information." />
+    <meta name="author" content="Maxwell iwe" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap">
+    </noscript>
+
+
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/directory.css" />
+    <script type="module" src="scripts/app.js"></script>
+    <script src="scripts/modules/directory.js" defer></script>
+    <link rel="icon" href="images/favicon-main-modified.ico" sizes="48x48" type="image/ico">
+    <script src="https://kit.fontawesome.com/e0a574ddb0.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="directory-page">
+
+    <header>
+
+        <nav>
+            <div class="box-logo-header">
+                <a href="index.html">
+                    <img class="logo-chamber" src="../chamber/images/logo-chamber-modified-small.webp"
+                        alt="Logo of Benin City Chamber of Commerce" />
+                </a>
+
+
+                <h1 class="nameHeader">Benin City<br>Chamber of Commerce </h1>
+
+                <button name="navigation button" id="menu" aria-label="Toggle menu" aria-expanded="false"></button>
+            </div>
+
+            <ul>
+                <li>
+                    <a class="nav-a" href="./index.html">
+                        Home
+
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-a" href="./discover.html">
+                        Discover
+
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-a active" href="./directory.html">
+                        Directory
+
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-a" href="./join.html">
+                        Join
+
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+        <h2 class="Main-title">Directory</h2>
+        <div class="button-box">
+            <button title="List view" class='mybtn activebtn' id="list-view-btn"><i class='fas fa-list'></i></button>
+            <button title="Grid view" class='mybtn' id="grid-view-btn"><i class='fas fa-border-all'></i></button>
+        </div>
+
+        <div id="directory-box"></div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear">Lorem</span> Maxwell Iwe |
+            Nigeria</p>
+        <p id="lastModified">Lorem ipsum</p>
+
+        <a href="/home" aria-label="Go to home" class="empty-link"></a>
+        <a href="/settings" aria-label="Go to settings" class="empty-link"></a>
+        <a href="/profile" aria-label="Go to profile" class="empty-link"></a>
+        <a href="/notifications" aria-label="View notifications" class="empty-link"></a>
+        <a href="/messages" aria-label="View messages" class="empty-link"></a>
+        <a href="/help" aria-label="Get help" class="empty-link"></a>
+
+    </footer>
+</body>
+
+</html>

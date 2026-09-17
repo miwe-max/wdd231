@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="Join | Benin City Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://febirison.github.io/wdd231/chamber/images/logo-chamber-modified-small.webp">
+    <meta property="og:url" content="https://febirison.github.io/wdd231/chamber/directory.html">
+    <meta property="og:description" content="Benin City Chamber of Commerce, Join us to get more information">
+    <meta property="fb:app_id" content="your-app-id-here">
+
+
+    <title>Join | Benin City Chamber of Commerce</title>
+    <meta name="description"
+        content="Apply for membership with the Benin City Chamber of Commerce and access exclusive business resources, networking opportunities, and community benefits." />
+    <meta name="author" content="Anderson Okai" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap">
+    </noscript>
+
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/join.css" />
+
+    <script type="module" src="./scripts/app.js"></script>
+    <script src="./scripts/modules/join.js" defer></script>
+
+
+    <link rel="icon" href="images/favicon-main-modified.ico" sizes="48x48" type="image/ico">
+    <script src="https://kit.fontawesome.com/e0a574ddb0.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="join-page">
+    <header>
+        <nav>
+            <div class="box-logo-header">
+                <img class="logo-chamber" src="images/logo-chamber-modified-small.webp"
+                    alt="Logo Ghana Chamber Of Commerce" />
+                <h1 class="nameHeader"> Benin city<br> Chamber of Commerce </h1>
+                <button name="navigation button" id="menu" aria-label="Toggle menu"></button>
+            </div>
+            <ul>
+                <li><a class="nav-a " href="./index.html">Home</a></li>
+                <li><a class="nav-a " href="./discover.html">Discover</a></li>
+                <li><a class="nav-a " href="./directory.html">Directory</a></li>
+                <li><a class="nav-a " href="./join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Add the <h1> tag here -->
+        <h1>Join the Benin city Chamber of Commerce</h1>
+        <form method="get" action="thankyou.html">
+            <h2 class="sub-title-form">Membership Application</h2>
+
+            <!-- Name Section -->
+            <label for="firstName" class="name-lb">First Name:</label>
+            <input type="text" id="firstName" name="firstName" title="Enter your first name" autocomplete="given-name"
+                required placeholder="First">
+
+            <label for="lastName" class="name-lb">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" title="Enter your last name" autocomplete="family-name"
+                required placeholder="Last">
+
+            <br><br>
+
+            <!-- Organizational Title -->
+            <label for="organizationTitle">Organizational Title:</label>
+            <input type="text" id="organizationTitle" name="organizationTitle" title="Enter your organizational title"
+                autocomplete="organization-title" pattern="[A-Za-z\s\-.,']{2,}" required>
+
+            <br><br>
+
+            <!-- Email Address -->
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" title="Enter your email address" autocomplete="email"
+                placeholder="example@email.com" required>
+
+            <br><br>
+
+            <!-- Mobile Phone Number -->
+            <label for="phone">Mobile Phone Number:</label>
+            <input type="tel" id="phone" name="phone" title="Enter your mobile phone number" autocomplete="tel" required
+                placeholder="+233 123-456-7890">
+
+            <br><br>
+
+            <!-- Business/Organization Name -->
+            <label for="organization">Business/Organization Name:</label>
+            <input type="text" id="organization" name="organization" title="Enter your business or organization name"
+                autocomplete="organization" required>
+
+            <br><br>
+
+            <!-- Membership Level -->
+            <label for="membershipLevel">Membership Level:</label>
+            <select id="membershipLevel" name="membershipLevel" required>
+                <option value="" disabled selected>Select a membership level</option>
+                <option value="NP">NP Membership (Non-Profit)</option>
+                <option value="Bronze">Bronze Membership</option>
+                <option value="Silver">Silver Membership</option>
+                <option value="Gold">Gold Membership</option>
+            </select>
+
+            <br><br>
+
+            <!-- Business/Organization Description -->
+            <label for="organizationDescription">Business/Organization Description:</label>
+            <textarea id="organizationDescription" name="organizationDescription"
+                title="Describe your business or organization" rows="4" cols="50"></textarea>
+
+            <br><br>
+
+            <!-- Hidden Timestamp -->
+            <input type="hidden" id="timestamp" name="timestamp" value="">
+
+            <!-- Submit Button -->
+            <button class="css-button-fully-rounded--grey" type="submit">Apply for Membership</button>
+
+            <br><br>
+        </form>
+
+
+        <section class="membership-container">
+            <h2 class="sub-title-member">Membership Levels</h2>
+
+            <div class="card">
+                <h3>Non Profit Membership Level</h3>
+                <button class="css-button-arrow--black" id="npButton"
+                    aria-label="Learn more about Non-Profit Membership">
+                    <span class="visually-hidden">Learn More</span>
+                </button>
+            </div>
+
+            <div class="card">
+                <h3>Bronze Membership Level</h3>
+                <button class="css-button-arrow--black" id="bronzeButton"
+                    aria-label="Learn more about bronze Membership">
+                    <span class="visually-hidden">Learn More</span></button>
+            </div>
+
+            <div class="card">
+                <h3>Silver Membership Level</h3>
+                <button class="css-button-arrow--black" id="silverButton"
+                    aria-label="Learn more about silver Membership">
+                    <span class="visually-hidden">Learn More</span></button>
+            </div>
+
+            <div class="card">
+                <h3>Gold Membership Level</h3>
+                <button class="css-button-arrow--black" id="goldButton" aria-label="Learn more about gold Membership">
+                    <span class="visually-hidden">Learn More</span></button>
+            </div>
+
+            <section class="msg-box">
+                <div class="rotating-text">
+                    <h3 class="start-p">Become part of our</h3>
+                    <p>
+                        <span class="word alizarin">Awesome</span>
+                        <span class="word wisteria">Amazing</span>
+                        <span class="word peter-river">Incredible</span>
+                        <span class="word emerald">Fantastic</span>
+                        <span class="word sun-flower">Fabulous</span>
+                    </p>
+                    <h3 class="end-p">community!</h3>
+                </div>
+            </section>
+
+        </section>
+
+        <dialog id="npModal"></dialog>
+        <dialog id="bronzeModal"></dialog>
+        <dialog id="silverModal"></dialog>
+        <dialog id="goldModal"></dialog>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear">Lorem</span> Benin city |
+            Nigeria</p>
+        <p id="lastModified">Lorem ipsum</p>
+    </footer>
+
+</body>
+
+</html>

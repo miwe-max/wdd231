@@ -1,0 +1,101 @@
+[
+    {
+        "Name": "MTN Nigeria",
+        "Industry": "Informatics, Technology, Communication",
+        "Physical Address": "MTN House, Benin City",
+        "Website": "https://www.mtn.ng",
+        "Phone": "+234 803 100 0000",
+        "Representative": "Karl Toriola / CEO",
+        "MemberSince": "25/05/2006",
+        "Membership": "Gold",
+        "logo": "https://mtn.com.gh/wp-content/themes/mtn-vivid-wp/public/img/mtn-logo.svg"
+    },
+    {
+        "Name": "Telecel Nigeria",
+        "Industry": "Telecommunications",
+        "Physical Address": "Telecel House, Benin City",
+        "Website": "https://telecel.com.gh",
+        "Phone": "+234 802 300 0000",
+        "Representative": "Chinedu Okafor / CEO",
+        "MemberSince": "11/01/2008",
+        "Membership": "Silver",
+        "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFMimL60qjpGw/company-logo_200_200/company-logo_200_200/0/1710192723468?e=2147483647&v=beta&t=F7jN2tiZqGos6c2mTTIOPQHqAPUs0oUAvKdyBDLeFaE"
+    },
+    {
+        "Name": "Ecobank Nigeria",
+        "Industry": "Banking",
+        "Physical Address": "2 Independence Avenue, Benin City",
+        "Website": "https://www.ecobank.com/ng",
+        "Phone": "+234 700 500 0000",
+        "Representative": "Ayo Adeyemi / Managing Director",
+        "MemberSince": "11/01/1990",
+        "Membership": "Gold",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ecobank_Logo_EN.png/220px-Ecobank_Logo_EN.png"
+    },
+    {
+        "Name": "First Bank of Nigeria",
+        "Industry": "Banking",
+        "Physical Address": "Head Office, Benin City",
+        "Website": "https://www.firstbanknigeria.com",
+        "Phone": "+234 708 062 5000",
+        "Representative": "Olusegun Alebiosu / Managing Director",
+        "MemberSince": "05/01/1953",
+        "Membership": "Gold",
+        "logo": "https://desimoneltd.com/wp-content/uploads/2019/07/gcb-logo.jpg"
+    },
+    {
+        "Name": "Benin Electricity Distribution Company",
+        "Industry": "Energy",
+        "Physical Address": "BEDC Headquarters, Benin City",
+        "Website": "https://www.bedc.com.ng",
+        "Phone": "+234 700 123 0000",
+        "Representative": "Henry Ajagbawa / Managing Director",
+        "MemberSince": "1961",
+        "Membership": "Gold",
+        "logo": "https://buipower.com/wp-content/uploads/2021/06/vra_2.png"
+    },
+    {
+        "Name": "Nigerian National Petroleum Company",
+        "Industry": "Oil & Gas",
+        "Physical Address": "NNPC Office, Benin City",
+        "Website": "https://www.nnpcgroup.com",
+        "Phone": "+234 809 990 0000",
+        "Representative": "Bayo Ojulari / Group CEO",
+        "MemberSince": "1960",
+        "Membership": "Gold",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjejiwibxClgTH6qqFcWezUZ8gE0256zf2Uw&s"
+    },
+    {
+        "Name": "Unilever Nigeria",
+        "Industry": "Consumer Goods",
+        "Physical Address": "Industrial Area, Benin City",
+        "Website": "https://www.unilever.com.ng",
+        "Phone": "+234 1 271 1700",
+        "Representative": "Folake Ani-Mumuney / Managing Director",
+        "MemberSince": "1952",
+        "Membership": "Bronze",
+        "logo": "https://w7.pngwing.com/pngs/220/327/png-transparent-unilever-pakistan-limited-logo-brand-unilever-text-logo-flower-thumbnail.png"
+    },
+    {
+        "Name": "Nigerian Ports Authority",
+        "Industry": "Logistics",
+        "Physical Address": "Port Office, Benin City",
+        "Website": "https://nigerianports.gov.ng",
+        "Phone": "+234 1 263 0000",
+        "Representative": "Abubakar Dantsoho / Managing Director",
+        "MemberSince": "1950",
+        "Membership": "Silver",
+        "logo": "https://www.iaphworldports.org/n-iaph/wp-content/uploads/mp/africa/zzGambia-Ports-Authority.png"
+    },
+    {
+        "Name": "Nigerian Bottling Company",
+        "Industry": "Beverages",
+        "Physical Address": "Industrial Estate, Benin City",
+        "Website": "https://www.nbc.com.ng",
+        "Phone": "+234 1 271 1700",
+        "Representative": "Ambrose Akinmusire / Managing Director",
+        "MemberSince": "1989",
+        "Membership": "Gold",
+        "logo": "https://media.licdn.com/dms/image/v2/C4E03AQFURQOOA1di4g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1619264629275?e=2147483647&v=beta&t=tb_M1PwSdhIi_o7UDla9VY0eBeZxp34w-bWlVl9GE0w"
+    }
+]

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="Directory | Benin city Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://febirison.github.io/wdd231/chamber/images/logo-chamber-modified-small.webp">
+    <meta property="og:url" content="https://febirison.github.io/wdd231/chamber/directory.html">
+    <meta property="og:description" content="Chamber of Benin city, Join us to get more information">
+    <meta property="fb:app_id" content="your-app-id-here">
+
+
+    <title>Discover | Benin City Chamber of Commerce</title>
+    <meta name="description" content="Chamber directory, Benin City" />
+    <meta name="author" content="Maxwell Iwe" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap">
+    </noscript>
+
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+
+    <script type="module" src="./scripts/app.js"></script>
+    <script src="./scripts/modules/discover.js" defer></script>
+
+
+    <link rel="icon" href="images/favicon-main-modified.ico" sizes="48x48" type="image/ico">
+    <script src="https://kit.fontawesome.com/e0a574ddb0.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="discover-page">
+    <header>
+        <nav>
+            <div class="box-logo-header">
+                <img class="logo-chamber" src="images/logo-chamber-modified-small.webp" alt="Logo Chamber Panama" />
+                <h1 class="nameHeader">Benin city<br>Chamber of Commerce</h1>
+                <button name="navigation button" id="menu" aria-label="Toggle menu"></button>
+            </div>
+            <ul>
+                <li><a class="nav-a " href="./index.html">Home</a></li>
+                <li><a class="nav-a " href="./discover.html">Discover</a></li>
+                <li><a class="nav-a " href="./directory.html">Directory</a></li>
+                <li><a class="nav-a " href="./join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="discover">
+        <h1>Discover Benin City Chamber of Commerce</h1>
+        <section class="side-bar">
+            <article class="article-01">
+                <header>
+                    <h2>Benin city at a Glance</h2>
+                </header>
+                <ul>
+                    <li><strong>Population:</strong> 242.4 Million (2026 est.)</li>
+                    <li><strong>Capital:</strong> Abuja</li>
+                    <li><strong>Official Language:</strong> English</li>
+                    <li><strong>Currency:</strong> Nigeria Naira (₦)</li>
+                    <li><strong>GDP Growth:</strong> 4.8% (2025)</li>
+                    <li><strong>Major Industries:</strong> Mining, Agriculture, Oil & Gas</li>
+                </ul>
+            </article>
+            <article class="article-message">
+                <p id="visit-message"></p>
+            </article>
+            <article class="article-03">
+                <table id="calendar">
+                    <caption></caption> <!-- Moved out of thead -->
+                    <thead>
+                        <tr>
+                            <th>Sun</th>
+                            <th>Mon</th>
+                            <th>Tue</th>
+                            <th>Wed</th>
+                            <th>Thu</th>
+                            <th>Fri</th>
+                            <th>Sat</th>
+                        </tr>
+                    </thead>
+                    <tbody> </tbody>
+                </table>
+            </article>
+
+        </section>
+        <section class="cards-container">
+            <!-- Cards will be dynamically inserted here -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/YourProfile" target="_blank">
+                <img src="images/facebook.webp" alt="Facebook">
+            </a>
+            <a href="https://twitter.com/YourProfile" target="_blank">
+                <img src="images/twitter.webp" alt="Twitter">
+            </a>
+            <a href="https://www.linkedin.com/in/YourProfile" target="_blank">
+                <img src="images/linkedin.webp" alt="LinkedIn">
+            </a>
+            <a href="https://www.instagram.com/YourProfile" target="_blank">
+                <img src="images/instagram.webp" alt="Instagram">
+            </a>
+            <a href="https://www.youtube.com/c/YourChannel" target="_blank">
+                <img src="images/youtube.webp" alt="YouTube">
+            </a>
+        </div>
+        <p>&copy;<span id="currentyear">Lorem</span> Maxwell Iwe |
+            Benin City</p>
+        <p id="lastModified">Lorem ipsum</p>
+    </footer>
+
+</body>
+
+</html>

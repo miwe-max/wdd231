@@ -1,0 +1,28 @@
+{
+    "events": [
+        {
+            "name": "Green Economy Summit",
+            "date": "2025-04-22"
+        },
+        {
+            "name": "Tech Innovation Fair",
+            "date": "2025-05-18"
+        },
+        {
+            "name": "Women in Business Conference",
+            "date": "2025-06-12"
+        },
+        {
+            "name": "Agribusiness Investment Forum",
+            "date": "2025-07-25"
+        },
+        {
+            "name": "Youth Entrepreneurship Bootcamp",
+            "date": "2025-08-30"
+        },
+        {
+            "name": "Cultural Trade Expo",
+            "date": "2025-09-20"
+        }
+    ]
+}

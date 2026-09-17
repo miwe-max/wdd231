@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Benin City Business Hub",
+        "address": "Sapele Road, Benin City, Edo State",
+        "description": "Premier center for startups and entrepreneurs.",
+        "image": "event-01.webp"
+    },
+    {
+        "title": "Oba Market Trade Center",
+        "address": "Oba Market Road, Benin City, Edo State",
+        "description": "Leading marketplace for regional commerce.",
+        "image": "event-02.webp"
+    },
+    {
+        "title": "Ikpoba-Okha Fisheries Center",
+        "address": "Mission Road, Benin City, Edo State",
+        "description": "Sustainable fishing and export services.",
+        "image": "event-03.webp"
+    },
+    {
+        "title": "Benin Traditional Textiles",
+        "address": "Siluko Road, Benin City, Edo State",
+        "description": "Traditional fabrics and modern designs.",
+        "image": "event-01.webp"
+    },
+    {
+        "title": "Benin Logistics Services",
+        "address": "Airport Road, Benin City, Edo State",
+        "description": "Efficient logistics and shipping solutions.",
+        "image": "event-02.webp"
+    },
+    {
+        "title": "Edo Agro Farms",
+        "address": "Benin-Auchi Road, Benin City, Edo State",
+        "description": "Organic produce and agricultural exports.",
+        "image": "event-03.webp"
+    },
+    {
+        "title": "Benin Craft Collective",
+        "address": "Igun Street, Benin City, Edo State",
+        "description": "Handcrafted goods and cultural artifacts.",
+        "image": "event-01.webp"
+    },
+    {
+        "title": "Benin Industrial Center",
+        "address": "Ikpoba Hill, Benin City, Edo State",
+        "description": "Manufacturing and industrial services.",
+        "image": "event-02.webp"
+    }
+]
