@@ -77,10 +77,10 @@ article {
 }
 
 .join-us {
-    background-color: var(--big-fish-to-fry);
+    background-color: var(--yale-blue);
     width: 100px;
     height: 35px;
-    border: 1px solid var(--lunar-base);
+    border: 1px solid var(--yale-blue);
     padding: 5px;
     text-align: center;
     margin: auto;
@@ -93,13 +93,13 @@ article {
 
 .join-us a {
     text-decoration: none;
-    color: var(--king-kong);
+    color: var(--white);
     transition: color 0.3s ease;
 }
 
 .join-us:hover {
-    background-color: var(--yale-blue);
-    border-color: var(--lunar-base);
+    background-color: var(--king-kong);
+    border-color: var(--king-kong);
 }
 
 .join-us:hover a {
