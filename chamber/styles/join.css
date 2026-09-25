@@ -18,6 +18,7 @@ main {
 
 .sub-title-form {
     margin: 10px;
+    color: #ffffff;
 }
 
 .sub-title-member {
@@ -36,6 +37,10 @@ form {
 label {
     display: block;
     margin-bottom: 10px;
+}
+
+.name-lb {
+    color: #ffffff;
 }
 
 .name-lb input {
@@ -65,7 +70,9 @@ select {
     text-align: center;
 }
 
-.card {
+/* Membership Cards */
+
+.membership-container .card {
     display: grid;
     justify-content: center;
     align-content: center;
@@ -73,17 +80,14 @@ select {
     margin: 20px;
     border-radius: 5px;
     box-shadow: 0 3px 5px var(--paragraph-background-color);
-}
-
-.card h3 {
-    color: var(--king-kong);
-}
-
-.card {
     animation: animate 5s ease infinite;
 }
 
-.card:hover {
+.membership-container .card h3 {
+    color: var(--king-kong);
+}
+
+.membership-container .card:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
 }
@@ -102,23 +106,23 @@ select {
     }
 }
 
-.card:nth-child(1) {
+.membership-container .card:nth-child(1) {
     animation-delay: 0s;
 }
 
-.card:nth-child(2) {
+.membership-container .card:nth-child(2) {
     animation-delay: 1s;
 }
 
-.card:nth-child(3) {
+.membership-container .card:nth-child(3) {
     animation-delay: 2s;
 }
 
-.card:nth-child(4) {
+.membership-container .card:nth-child(4) {
     animation-delay: 3s;
 }
 
-.card button {
+.membership-container .card button {
     margin: 0 auto;
 }
 
@@ -185,12 +189,12 @@ select {
     padding-left: 8px;
 }
 
-.css-button-arrow--black:hover:after {
+.css-button-arrow--black:hover::after {
     opacity: 1;
     right: 10px;
 }
 
-.css-button-arrow--black:after {
+.css-button-arrow--black::after {
     content: "\00BB";
     position: absolute;
     opacity: 0;
@@ -263,27 +267,22 @@ select {
 
 .alizarin {
     color: #a51707;
-    /* Darker red */
 }
 
 .wisteria {
     color: #5b057d;
-    /* Deeper purple */
 }
 
 .peter-river {
     color: #033a72;
-    /* Stronger blue */
 }
 
 .emerald {
     color: #055125;
-    /* Deeper green */
 }
 
 .sun-flower {
     color: #695a1d;
-    /* Darker yellow */
 }
 
 dialog {

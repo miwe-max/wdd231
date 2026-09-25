@@ -75,9 +75,10 @@
             <br><br>
 
             <!-- Organizational Title -->
-            <label for="organizationTitle">Organizational Title:</label>
-            <input type="text" id="organizationTitle" name="organizationTitle" title="Enter your organizational title"
-                autocomplete="organization-title" pattern="[A-Za-z\s\-.,']{2,}" required>
+        <label for="organizationTitle">Organizational Title:</label>
+        <input type="text" id="organizationTitle" name="organizationTitle"
+            title="Enter at least 7 characters using only letters, spaces, and hyphens" autocomplete="organization-title"
+            pattern="[A-Za-z\s-]{7,}" minlength="7" required>
 
             <br><br>
 
