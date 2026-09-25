@@ -6,7 +6,8 @@ main {
     grid-template-rows: auto auto auto;
     justify-content: center;
     align-content: center;
-    margin: 30px auto 0;
+    margin: 0 auto;
+    margin-top: 30px;
     row-gap: 20px;
 }
 
@@ -19,10 +20,6 @@ section h4 {
     font-size: var(--font-size-base);
 }
 
-/* =========================
-   HERO SECTION
-========================= */
-
 .hero-main-box {
     grid-column: 2/3;
     grid-row: 1;
@@ -34,7 +31,8 @@ section h4 {
 }
 
 article {
-    margin: 20px auto 0;
+    margin: 0 auto;
+    margin-top: 20px;
     border-radius: 5px;
     box-shadow: 0 3px 5px var(--paragraph-background-color);
     height: auto;
@@ -64,12 +62,12 @@ article {
     box-shadow: 0 4px 8px var(--paragraph-background-color);
 }
 
-.call-to-action h2,
 .call-to-action h3 {
     padding: 0;
     color: var(--headline-color-on-color);
     text-align: center;
-    margin: 0 0 10px;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 .call-to-action p {
@@ -78,33 +76,37 @@ article {
     margin: 0;
 }
 
-/* Join Button */
-
 .join-us {
-    background-color: #003366;
-    color: #ffffff;
+    background-color: var(--big-fish-to-fry);
     width: 100px;
-    min-height: 35px;
-    border: 1px solid #003366;
+    height: 35px;
+    border: 1px solid var(--lunar-base);
     padding: 5px;
     text-align: center;
-    margin: 10px auto 0;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.join-us a {
     text-decoration: none;
-    cursor: pointer;
+    color: var(--king-kong);
+    transition: color 0.3s ease;
 }
 
 .join-us:hover {
     background-color: var(--yale-blue);
     border-color: var(--lunar-base);
+}
+
+.join-us:hover a {
     color: var(--white);
 }
 
-/* =========================
-   EVENTS AND WEATHER
-========================= */
+/********************* */
 
 .event-main-box {
     grid-column: 2/3;
@@ -115,7 +117,8 @@ article {
     gap: 10px;
     justify-content: center;
     align-items: center;
-    margin: 50px auto 0;
+    margin: 0 auto;
+    margin-top: 50px;
     color: var(--king-kong);
 }
 
@@ -151,8 +154,6 @@ article {
     margin: 0;
 }
 
-/* Current Weather */
-
 .weather-main {
     grid-row: 2;
     width: 340px;
@@ -172,6 +173,7 @@ article {
     align-items: center;
     justify-content: center;
     padding: 20px;
+
     width: 100%;
     max-width: 350px;
     text-align: center;
@@ -194,8 +196,6 @@ article {
     font-weight: var(--open-sans-font-weight);
     font-style: var(--open-sans-font-style);
 }
-
-/* Forecast */
 
 .forecast p {
     text-align: center;
@@ -228,10 +228,7 @@ article {
     padding: 15px;
 }
 
-/* =========================
-   SPOTLIGHTS
-========================= */
-
+/* Spotlights */
 .spotlights-main-box {
     grid-column: 2/3;
     grid-row: 3;
@@ -248,12 +245,7 @@ article {
     padding: 5px;
 }
 
-/*
-   FIXED:
-   There is now only ONE top-level .spot-card rule.
-*/
 .spot-card {
-    background-color: var(--paragraph-background-white);
     border-radius: 10px;
     box-shadow: 0 4px 8px var(--king-kong);
     padding: 20px;
@@ -292,7 +284,7 @@ article {
 }
 
 .spot-data {
-    padding: 0 20px;
+    padding: 0px 20px;
 }
 
 .spot-data p {
@@ -331,12 +323,13 @@ article {
     box-shadow: 0 4px 8px var(--onyx);
 }
 
-/* =========================
-   LARGE SCREEN
-========================= */
+.spot-card {
+    background-color: var(--paragraph-background-white);
+}
 
 @media (min-width: 860px) {
 
+    /* Home Page */
     .container-home {
         display: grid;
         max-width: 1024px;
@@ -361,7 +354,6 @@ article {
     }
 
     /* Event and Weather */
-
     .event-main-box {
         grid-row: 2;
         grid-column: 2;
@@ -410,7 +402,6 @@ article {
     }
 
     /* Spotlights */
-
     .spotlights-main-box {
         grid-row: 3;
         grid-column: 2;
@@ -420,7 +411,8 @@ article {
         text-align: center;
         justify-content: center;
         align-items: center;
-        margin: 0 auto 50px;
+        margin: 0 auto;
+        margin-bottom: 50px;
         gap: 20px;
         max-width: 100%;
     }

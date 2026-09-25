@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Advanced Form Practice</title>
+
+    <meta name="description" content="Practice HTML form using URL query parameters and URLSearchParams.">
+    <meta name="author" content="Your Name">
+
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Registration Form</h1>
+    </header>
+
+    <main>
+
+        <form method="get" action="thankyou.html">
+
+            <fieldset>
+
+                <legend>Personal Information</legend>
+
+                <label for="first-name">
+                    First Name
+                </label>
+
+                <input type="text" id="first-name" name="firstName" required>
+
+
+                <label for="last-name">
+                    Last Name
+                </label>
+
+                <input type="text" id="last-name" name="lastName" required>
+
+
+                <label for="email">
+                    Email
+                </label>
+
+                <input type="email" id="email" name="email" required>
+
+
+                <label for="phone">
+                    Phone Number
+                </label>
+
+                <input type="tel" id="phone" name="phone">
+
+
+                <label for="birthdate">
+                    Birthdate
+                </label>
+
+                <input type="date" id="birthdate" name="birthdate">
+
+            </fieldset>
+
+
+            <fieldset>
+
+                <legend>Additional Information</legend>
+
+                <label for="course">
+                    Course
+                </label>
+
+                <select id="course" name="course" required>
+
+                    <option value="">
+                        Select a course
+                    </option>
+
+                    <option value="WDD130">
+                        WDD 130
+                    </option>
+
+                    <option value="WDD131">
+                        WDD 131
+                    </option>
+
+                    <option value="WDD231">
+                        WDD 231
+                    </option>
+
+                </select>
+
+
+                <p>Preferred Contact Method</p>
+
+                <label>
+                    <input type="radio" name="contact" value="Email" required>
+                    Email
+                </label>
+
+                <label>
+                    <input type="radio" name="contact" value="Phone">
+                    Phone
+                </label>
+
+
+                <label for="comments">
+                    Comments
+                </label>
+
+                <textarea id="comments" name="comments" rows="5"></textarea>
+
+            </fieldset>
+
+
+            <input type="submit" value="Submit Registration">
+
+        </form>
+
+    </main>
+
+</body>
+
+</html>
