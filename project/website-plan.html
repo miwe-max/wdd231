@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Site plan for Maxwell Iwe's professional portfolio website showcasing web development, cybersecurity, and IT support expertise">
+    <meta name="author" content="Maxwell Iwe">
+    <title>Site Plan - Maxwell Iwe Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --secondary: #475569;
+            --accent: #f8fafc;
+            --text: #1e293b;
+            --background: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background: var(--background);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Playfair Display', serif;
+            color: var(--primary-dark);
+            margin: 2rem 0 1rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            position: relative;
+            padding-bottom: 1rem;
+        }
+
+        h1::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 3px;
+            background: var(--primary);
+        }
+
+        h2 {
+            font-size: 2rem;
+            border-bottom: 3px solid var(--primary);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        p,
+        ul,
+        ol {
+            margin-bottom: 1.5rem;
+            color: var(--secondary);
+        }
+
+        section {
+            background: var(--accent);
+            padding: 2.5rem;
+            border-radius: 12px;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-2px);
+        }
+
+        .color-palette {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .color-sample {
+            padding: 1.5rem;
+            border-radius: 8px;
+            color: white;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+        }
+
+        .color-sample:hover {
+            transform: scale(1.02);
+        }
+
+        .typography-sample {
+            margin: 1.5rem 0;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .wireframes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .wireframe-container {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .wireframe {
+            width: 100%;
+            height: auto;
+            border: 2px solid var(--secondary);
+            border-radius: 8px;
+            max-width: 100%;
+            transition: transform 0.3s ease;
+        }
+
+        .wireframe:hover {
+            transform: scale(1.02);
+        }
+
+        ul {
+            list-style-position: inside;
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        strong {
+            color: var(--primary-dark);
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            section {
+                padding: 1.5rem;
+            }
+
+            .color-palette {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Site Plan: Maxwell Iwe Portfolio</h1>
+
+    <section>
+        <h2>Site Name</h2>
+        <p><strong>maxwelliwe.dev</strong></p>
+        <p>This domain name was selected because it's professional, memorable, and directly connects to Maxwell's
+            identity. The .dev TLD emphasizes his focus on software development and technology, making it immediately
+            clear to visitors that this is a developer's portfolio.</p>
+    </section>
+
+    <section>
+        <h2>Site Purpose</h2>
+        <p>The website serves as a comprehensive professional portfolio that:</p>
+        <ul>
+            <li>Showcases Maxwell's expertise in web development, cybersecurity, and IT support through project
+                demonstrations and case studies</li>
+            <li>Provides a platform for sharing technical insights and knowledge through a blog section</li>
+            <li>Facilitates professional networking and job opportunities through an easy-to-use contact system</li>
+            <li>Demonstrates technical proficiency through modern web development practices and clean design</li>
+            <li>Serves as a central hub for Maxwell's professional online presence</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Target Audience Scenarios</h2>
+        <h3>Scenario 1: Potential Employer</h3>
+        <p>"I'm a hiring manager looking for a full-stack developer with cybersecurity knowledge. What kind of
+            real-world projects has Anderson worked on, and what technologies does he use?"</p>
+
+        <h3>Scenario 2: Potential Client</h3>
+        <p>"I need someone to develop a secure web application for my business. What is Anderson's experience with
+            security-focused web development, and how can I contact him for a project discussion?"</p>
+
+        <h3>Scenario 3: Fellow Developer</h3>
+        <p>"I'm interested in cybersecurity and web development. What insights and resources does Anderson share about
+            these topics, and how can I learn from his experience?"</p>
+    </section>
+
+    <section>
+        <h2>Color Schema</h2>
+        <p>The color scheme is designed to be professional and trustworthy while maintaining good readability and visual
+            hierarchy.</p>
+
+        <div class="color-palette">
+            <div class="color-sample" style="background: #2563eb">
+                Primary Blue<br>#2563eb<br>Main CTAs, Links
+            </div>
+            <div class="color-sample" style="background: #1d4ed8">
+                Dark Blue<br>#1d4ed8<br>Hover States
+            </div>
+            <div class="color-sample" style="background: #475569; color: white">
+                Secondary Gray<br>#475569<br>Secondary Text
+            </div>
+            <div class="color-sample" style="background: #f8fafc; color: #1e293b">
+                Light Gray<br>#f8fafc<br>Backgrounds
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Typography</h2>
+        <div class="typography-sample">
+            <h3>Primary Font: Inter</h3>
+            <p>Used for body text, navigation, and general content. Selected for its excellent readability and modern
+                appearance.</p>
+            <p style="font-weight: 400">Regular: The quick brown fox jumps over the lazy dog</p>
+            <p style="font-weight: 600">Semi-bold: The quick brown fox jumps over the lazy dog</p>
+            <p style="font-weight: 700">Bold: The quick brown fox jumps over the lazy dog</p>
+        </div>
+
+        <div class="typography-sample">
+            <h3>Heading Font: Playfair Display</h3>
+            <p>Used for main headings to add sophistication and visual hierarchy.</p>
+            <p style="font-family: 'Playfair Display'; font-weight: 700">The quick brown fox jumps over the lazy dog</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Wireframes</h2>
+        <div class="wireframes">
+            <div class="wireframe-container">
+                <h3>Mobile View</h3>
+                <img class="wireframe" src="images/MobileView.drawio.png"
+                    alt="Mobile wireframe showing a vertical layout with hamburger menu">
+            </div>
+            <div class="wireframe-container">
+                <h3>Desktop View</h3>
+                <img class="wireframe" src="images/DesktopView.drawio.png"
+                    alt="Desktop wireframe showing a horizontal layout with expanded navigation">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

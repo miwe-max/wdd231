@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Maxwell Iwe</title>
+    <meta name="description"
+        content="Get in touch with Maxwell Iwe for web development, cybersecurity consulting, or collaboration opportunities.">
+    <meta name="author" content="Maxwell Iwe">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="Contact Maxwell Iwe">
+    <meta property="og:description"
+        content="Reach out to Maxwell Iwe for web development and cybersecurity inquiries.">
+    <meta property="og:image" content="https://maxwelliwe.dev/images/contact-preview.jpg">
+    <meta property="og:url" content="https://maxwelliwe.dev/contact.html">
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body>
+    <header>
+        <nav id="main-nav">
+            <div class="logo">MI</div>
+            <button id="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Me</h1>
+        <div id="contact-form">
+            <h2 class="sr-only">Contact Form</h2>
+            <form id="contact" action="contact-success.html" method="get">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Maxwell Iwe. All rights reserved.</p>
+            <nav>
+                <a href="https://github.com/febirison" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/maxwell-iwe-794478423" target="_blank"
+                    rel="noopener noreferrer">LinkedIn</a>
+                <a href="attributions.html">Attributions</a>
+            </nav>
+            <div class="social-icons">
+                <a href="https://github.com/febirison" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/maxwell-iwe-794478423" target="_blank" rel="noopener noreferrer"
+                    aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/contact.js"></script>
+</body>
+
+</html>

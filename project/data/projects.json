@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "title": "Secure Chat Application",
+        "description": "End-to-end encrypted chat application built with React and Node.js",
+        "image": "images/secure-chat.jpg",
+        "category": "web",
+        "technologies": [
+            "React",
+            "Node.js",
+            "Socket.io",
+            "Crypto-js"
+        ],
+        "link": "https://github.com/andersonokai/secure-chat"
+    },
+    {
+        "id": 2,
+        "title": "Vulnerability Scanner",
+        "description": "Automated vulnerability scanner for web applications",
+        "image": "images/vulnerability-scanner.png",
+        "category": "cybersecurity",
+        "technologies": [
+            "Python",
+            "Requests",
+            "BeautifulSoup"
+        ],
+        "link": "https://github.com/andersonokai/vulnerability-scanner"
+    },
+    {
+        "id": 3,
+        "title": "2D Platformer Game",
+        "description": "A retro-style 2D platformer game built with Unity",
+        "image": "images/platformer-game.jpg",
+        "category": "game",
+        "technologies": [
+            "Unity",
+            "C#"
+        ],
+        "link": "https://github.com/andersonokai/platformer-game"
+    },
+    {
+        "id": 4,
+        "title": "IT Ticketing System",
+        "description": "A full-stack ticketing system for IT support requests",
+        "image": "images/it-ticketing.png",
+        "category": "web",
+        "technologies": [
+            "React",
+            "Express",
+            "MongoDB",
+            "Node.js"
+        ],
+        "link": "https://github.com/andersonokai/it-ticketing-system"
+    },
+    {
+        "id": 5,
+        "title": "Network Traffic Analyzer",
+        "description": "A tool for analyzing and visualizing network traffic patterns",
+        "image": "images/network-analyzer.webp",
+        "category": "cybersecurity",
+        "technologies": [
+            "Python",
+            "Scapy",
+            "Matplotlib"
+        ],
+        "link": "https://github.com/andersonokai/network-traffic-analyzer"
+    }
+]

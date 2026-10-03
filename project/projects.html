@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Maxwell Iwe</title>
+    <meta name="description"
+        content="Explore Maxwell Iwe's web development, cybersecurity, and IT projects. See real-world applications and innovative solutions.">
+    <meta name="author" content="maxwell Iwe">
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="/styles/projects.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="Projects - Maxwell Iwe">
+    <meta property="og:description"
+        content="Discover Maxwell Iwe's portfolio of web development and cybersecurity projects.">
+    <meta property="og:image" content="https://maxwelliwe.dev/images/projects-preview.jpg">
+    <meta property="og:url" content="https://maxwelliwe.dev/projects.html">
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body>
+    <header>
+        <nav id="main-nav">
+            <div class="logo">MI</div>
+            <button id="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>My Projects</h1>
+        <div id="project-filters">
+            <h2 class="sr-only">Project Filters</h2>
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+            <button class="filter-btn" data-filter="cybersecurity">Cybersecurity</button>
+            <button class="filter-btn" data-filter="game">Game Development</button>
+        </div>
+        <div id="projects-grid">
+            <h2 class="sr-only">Project List</h2>
+            <!-- Projects will be dynamically populated here -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Maxwell Iwe. All rights reserved.</p>
+            <nav>
+                <a href="https://github.com/febirison" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/maxwell-iwe-794478423" target="_blank"
+                    rel="noopener noreferrer">LinkedIn</a>
+                <a href="attributions.html">Attributions</a>
+            </nav>
+            <div class="social-icons">
+                <a href="https://github.com/febirison" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/maxwell-iwe-794478423" target="_blank" rel="noopener noreferrer"
+                    aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title">Project Details</h2>
+            <img id="modal-image" src="/placeholder.svg" alt="" loading="lazy">
+            <p id="modal-description"></p>
+            <p id="modal-tech"></p>
+            <a id="modal-link" href="" target="_blank" rel="noopener noreferrer">View Project</a>
+        </div>
+    </div>
+
+    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/projects.js"></script>
+</body>
+
+</html>

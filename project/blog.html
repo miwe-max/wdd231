@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Maxwell Iwe</title>
+    <meta name="description"
+        content="Read Maxwell Iwe's insights on web development, cybersecurity, and IT trends. Stay updated with the latest in tech.">
+    <meta name="author" content="Maxwell Iwe">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/blog.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="Blog - Maxwell Iwe">
+    <meta property="og:description"
+        content="Explore Maxwell Iwe's articles on web development, cybersecurity, and IT trends.">
+    <meta property="og:image" content="https://maxwelliwe.dev/images/blog-preview.jpg">
+    <meta property="og:url" content="https://maxwelliwe.dev/blog.html">
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body>
+    <header>
+        <nav id="main-nav">
+            <div class="logo">MI</div>
+            <button id="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Blog</h1>
+        <div id="blog-posts">
+            <h2 class="sr-only">Blog Posts</h2>
+            <!-- Blog posts will be dynamically populated here -->
+        </div>
+        <div id="full-post" class="hidden">
+            <button id="back-to-posts" class="button">Back to Posts</button>
+            <article>
+                <h2 id="post-title"></h2>
+                <p id="post-date" class="post-date"></p>
+                <div id="post-content"></div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Maxwell Iwe. All rights reserved.</p>
+            <nav>
+                <a href="https://github.com/febirison" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/maxwell-iwe-794478423" target="_blank"
+                    rel="noopener noreferrer">LinkedIn</a>
+                <a href="attributions.html">Attributions</a>
+            </nav>
+            <div class="social-icons">
+                <a href="https://github.com/febirison" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/maxwell-iwe-794478423" target="_blank" rel="noopener noreferrer"
+                    aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/blog.js"></script>
+</body>
+
+</html>
