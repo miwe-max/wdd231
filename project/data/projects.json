@@ -11,7 +11,7 @@
             "Socket.io",
             "Crypto-js"
         ],
-        "link": "https://github.com/andersonokai/secure-chat"
+        "link": "https://github.com/miwe-max/secure-chat"
     },
     {
         "id": 2,
@@ -24,7 +24,7 @@
             "Requests",
             "BeautifulSoup"
         ],
-        "link": "https://github.com/andersonokai/vulnerability-scanner"
+        "link": "https://github.com/miwe-max/vulnerability-scanner"
     },
     {
         "id": 3,
@@ -36,7 +36,7 @@
             "Unity",
             "C#"
         ],
-        "link": "https://github.com/andersonokai/platformer-game"
+        "link": "https://github.com/miwe-max/platformer-game"
     },
     {
         "id": 4,
@@ -50,7 +50,7 @@
             "MongoDB",
             "Node.js"
         ],
-        "link": "https://github.com/andersonokai/it-ticketing-system"
+        "link": "https://github.com/miwe-max/it-ticketing-system"
     },
     {
         "id": 5,
@@ -63,6 +63,6 @@
             "Scapy",
             "Matplotlib"
         ],
-        "link": "https://github.com/andersonokai/network-traffic-analyzer"
+        "link": "https://github.com/miwe-max/network-traffic-analyzer"
     }
 ]
